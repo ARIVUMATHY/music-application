@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Exo", sans-serif;
+  background: linear-gradient(to right, #2d2d2d, #5d00ff, #4c4a4b);
+  background-size: 200% 200%;
+  /* background-image: url("./assests/Real.jpg"); */
+  background-image: url("./asset/BG.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+
+  color: #fff;
+}
